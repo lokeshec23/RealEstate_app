@@ -9,9 +9,10 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
       }}
-      s
     >
-      <Text className="font-bold text-lg my-10">Welcome to Restate</Text>
+      <Text className="font-bold  my-10 font-rubik text-3xl">
+        Welcome to Restate
+      </Text>
       <Link href={"/sign-in"}>Sign In</Link>
       <Link href={"/explore"}>Explore</Link>
       <Link href={"/profile"}>Profile</Link>
